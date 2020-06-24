@@ -9,6 +9,15 @@ Run the following to execute the profile and send the results to Chef Automate. 
 inspec exec test --input deputy_id='ABCD-AB3DE-WW4RR-Ws8T9' --json-config inspec.json
 ```
 
+The deputy ```control tag``` is now available 
+![ISM Report](/images/control-tag.png)
+
+The ```control tag``` is now available as a filter
+![ISM Report](/images/control-tag-value.png)
+
+The Deputy control tag can now filter on the UUID provided by the Jenkins pipeline
+![ISM Report](/images/control-tag-filter.png)
+
 ## 2. Find the InSpec report using the UUID via the API
 
 Set your Chef Automate token
