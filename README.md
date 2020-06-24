@@ -18,7 +18,7 @@ Set your Chef Automate token
 
 Use the Chef Automate API to list all nodes.
 ```bash
-curl -X POST https://automate.chef.io/api/v0/compliance/reporting/nodes/search --insecure -H "api-token: $TOKEN" -d '{"filters":[{"type":"environment","values":["dev*"]}]'}'
+curl -X POST https://automate.chef.io/api/v0/compliance/reporting/nodes/search --insecure -H "api-token: $TOKEN" -d '{"filters":[{"control tag":"deputy","values":["ABCD-AB3DE-WW4RR-Ws8T9"]}]'}'
 ```
 
 You can apply as many options as required, with optional filtering, pagination, and sorting. 
