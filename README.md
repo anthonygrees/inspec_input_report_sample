@@ -1,5 +1,5 @@
 # InSpec Input Tag Sample
-## Using input variables to tag reports and retrieve them via the API
+### Using input variables to tag reports and retrieve them via the API
 An example of Chef InSpec using input variables to tag a report in Chef Automate and then pull that report via the tag on the API.
 
 ## 1. Execute InSpec profile and pass in a UUID
