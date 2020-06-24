@@ -3,12 +3,12 @@ An example of Chef InSpec using inputs and reporting in Chef Automate
 
 ## Execute InSpec profile and pass in a UUID
 
-Run the following to execute the profile and send the results to Chef Automate
+Run the following to execute the profile and send the results to Chef Automate.  This can be executed via a Jenkins pipeline.
 ```bash
 inspec exec test --input deputy_id='ABCD-AB3DE-WW4RR-Ws8T9' --json-config inspec.json
 ```
 
-## Find the InSpec report using the Deputy_ID via the API
+## Find the InSpec report using the UUID via the API
 
 Set your Chef Automate token
 ```bash
