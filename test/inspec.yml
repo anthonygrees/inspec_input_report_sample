@@ -1,0 +1,17 @@
+name: test
+title: InSpec Profile
+maintainer: The Authors
+copyright: The Authors
+copyright_email: you@example.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 0.1.0
+supports:
+  platform: os
+# Optionally declare inputs in the profile metadata
+# This lets you set up things like type checking, etc.
+inputs:
+- name: deputy_id
+  description: A Unique Identifier from another system in a UUID format
+  type: String
+  # More options, including value: and priority: are possible here
