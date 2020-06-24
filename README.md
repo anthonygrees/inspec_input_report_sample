@@ -1,14 +1,15 @@
-# inspec_input_report_sample
-An example of Chef InSpec using inputs and reporting in Chef Automate
+# InSpec Input Tag Sample
+## Using input variables to tag reports and retrieve them via the API
+An example of Chef InSpec using input variables to tag a report in Chef Automate and then pull that report via the tag on the API.
 
-## Execute InSpec profile and pass in a UUID
+## 1. Execute InSpec profile and pass in a UUID
 
 Run the following to execute the profile and send the results to Chef Automate.  This can be executed via a Jenkins pipeline.
 ```bash
 inspec exec test --input deputy_id='ABCD-AB3DE-WW4RR-Ws8T9' --json-config inspec.json
 ```
 
-## Find the InSpec report using the UUID via the API
+## 2. Find the InSpec report using the UUID via the API
 
 Set your Chef Automate token
 ```bash
