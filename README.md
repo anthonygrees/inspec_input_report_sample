@@ -28,7 +28,7 @@ Set your Chef Automate token
    export TOKEN=`sudo chef-automate iam token create demo --admin`
 ```
 
-Use the Chef Automate API to list all nodes.
+Use the Chef Automate API to list all nodes and filter on the Deputy UUID ```'{"filters":[{"type": "control_tag:deputy", "values": ["ABCD-AB3DE-WW4RR-Ws8T9"]}]}''```.
 ```bash
 curl --silent --insecure -H "api-token: $TOKEN" https://anthony-a2.chef-demo.com/api/v0/compliance/reporting/nodes/search -d '{"filters":[{"type": "control_tag:deputy", "values": ["ABCD-AB3DE-WW4RR-Ws8T9"]}]}''
 ```
