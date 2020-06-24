@@ -7,7 +7,7 @@ title "sample section"
 
 control 'Test-001-Input' do
   impact 0.8
-  tag deputy: [input_deputy_id]
+  tag deputy: input_deputy_id
 
   title 'Test the Input Variable'
   desc 'A test for tags and reports'
