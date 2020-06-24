@@ -1,0 +1,12 @@
+{
+    "reporter" : {
+        "automate" : {
+            "stdout" : "false",
+            "url" : "https://anthony-a2.chef-demo.com/data-collector/v0",
+            "token" : "AAAA-AAAA-AAAA-AAAAB",
+            "insecure" : true,
+            "node_name" : "Deputy_Node_test",
+            "node_uuid" : "12345678-1234-1234-1234-123456785588",
+            "environment" : "dev"
+        }
+    }
